@@ -7,41 +7,64 @@
     <title>OdinWebPage|jlconde</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
     <!--First Block: Navigation Bar and Home-->
-    <div id = "home">
-        <img class="logo-text" src="" alt="Header Logo">
-        <a class = "link-text" href="">Header link 1</a>
-        <a class = "link-text" href="">Header link 2</a>
-        <a class = "link-text" href="">Header link 3</a>
-
-        <div class="flex-container">
-            <div class="one">
-                <h1 class="main-text">This Website is awesome</h1>
-                <p class="link-text">This website has some subtext that goes under the main title. It's a smaller font and the  color is lower contrast</p>   
+    <div class = "dark-background-color margins">
+        <nav>
+            <div class="flex justify-between margin-top">
+                <div class="header-logo-text">Header logo</div>
+                <div class = "flex header-link-text items-center">
+                    <div>header link 1</div>
+                    <div>header link 2</div>
+                    <div>header link 3</div>
+                </div>
             </div>
-            <div class="two">
+        </nav> 
+
+        <div class="flex gap">
+            <div>
+                <p class="hero-main-text">This Website is awesome<p>
+                <p class ="header-link-text">This website has some subtext that goes under the main title. It's a smaller font and the  color is lower contrast</p>   
+                <p class="sign-up-button">Sign up</p>
+            </div>
+
+            <div class = "header-link-text">
                 <p>this a place holder for an image</p>
             </div>
         </div>
+    
+    </div>
+   
+    <!--Second Block: Random information-->
+    <div class="margins">
+        <p>Some random information</p>
+    </div>
+    
+    <!--Third Block: Inspirational Quote-->
+    <div id="CustomerReview">
+        <p class="quote-text">This is an inspiring quote, or testimonail forma a customer.
+            Maybe it's just filling up space, or maybe people will actually read it. Who knows?
+            All I know is that looks nice.
+        </p>
+        <p class="customer-text">-Thor, God of Thunder</p>
     </div>
 
-
-
-    <!--Second Block: Random Information-->
-
-    <div id = "SomeRandomInformation">
-        <h1>Some random information</h1>
-
-        <div class="flex-container">
-            <div></div>
-            <div></div>
-            <div></div>
+    <!--Fourth Block: SignUP-->
+    <div class="sign-up-margins">
+        <div class ="flex items-center call-to-action">
+            <div>
+                <h4>Call to Action! It's time!</h4>
+                <p>Sign up for our prodcut by clicking that button right over there! </p>
+            </div>
+            <p class="call-to-action-button">Sign up</p>
         </div>
     </div>
 
-    <!--Third Block: Inspirational Quote-->
-    <!--Fourth Block: SignUP-->
+
     <!--Fith Block: Footer-->
+    <div id="footer">
+        <p>Copyright &copy; The Odin Project 2022</p>
+    </div>
 </body>
 </html> 
